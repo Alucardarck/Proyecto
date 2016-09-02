@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *Btt_Start;
 
 
 @end

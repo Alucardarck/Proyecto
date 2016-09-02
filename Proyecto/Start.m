@@ -24,4 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)Btt_Start:(id)sender {
+    
+    [self performSegueWithIdentifier: @"Second_Display" sender:self];  //Se realiza la saga llamada a segunda ventada
+}
+
 @end
