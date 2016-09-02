@@ -159,6 +159,9 @@
                                 <rect key="frame" x="20" y="48" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Back6.png"/>
+                                <connections>
+                                    <action selector="Back_Level:" destination="aM2-Bq-A7g" eventType="touchUpInside" id="XeI-HS-6Jw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PAC-tp-Cjk">
                                 <rect key="frame" x="20" y="367" width="136" height="123"/>
@@ -194,7 +197,7 @@
                         <outlet property="Back_To_Level" destination="TeA-KH-JSL" id="SOp-6R-sHv"/>
                         <outlet property="Btt_L2_1" destination="PAC-tp-Cjk" id="ORk-hS-b5K"/>
                         <outlet property="Btt_L2_2" destination="XAM-PO-K09" id="PeB-D8-5db"/>
-                        <outlet property="IMG_Lvl2" destination="NWa-sp-kpU" id="ENS-tE-QQg"/>
+                        <outlet property="IMG_Lvl2" destination="HJV-CS-it4" id="sUZ-m1-g08"/>
                         <outlet property="Label_Lvl2" destination="tGb-DV-FCd" id="Ac0-Mz-bTf"/>
                     </connections>
                 </viewController>
