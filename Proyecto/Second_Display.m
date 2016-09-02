@@ -37,4 +37,7 @@
     [self performSegueWithIdentifier: @"Go_Home" sender:self];  //Se realiza la saga llamada a Home
 }
 
+- (IBAction)Go_Level_1:(id)sender {
+    [self performSegueWithIdentifier: @"Level_1" sender:self];  //Se realiza la saga llamada a Home
+}
 @end
