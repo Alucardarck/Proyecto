@@ -63,6 +63,7 @@
 		5B18194A1D7A3E4F00DAD7CA /* Wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1819481D7A3E4F00DAD7CA /* Wrong.png */; };
 		5B18194C1D7A42E900DAD7CA /* Fondo_Cuadro.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B18194B1D7A42E900DAD7CA /* Fondo_Cuadro.png */; };
 		5B1819501D7A43C900DAD7CA /* F_Cuadro_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B18194F1D7A43C900DAD7CA /* F_Cuadro_2.png */; };
+		5B1819531D7A45FC00DAD7CA /* Level_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1819521D7A45FC00DAD7CA /* Level_3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,8 @@
 		5B1819481D7A3E4F00DAD7CA /* Wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wrong.png; sourceTree = "<group>"; };
 		5B18194B1D7A42E900DAD7CA /* Fondo_Cuadro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fondo_Cuadro.png; sourceTree = "<group>"; };
 		5B18194F1D7A43C900DAD7CA /* F_Cuadro_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F_Cuadro_2.png; sourceTree = "<group>"; };
+		5B1819511D7A45FC00DAD7CA /* Level_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level_3.h; sourceTree = "<group>"; };
+		5B1819521D7A45FC00DAD7CA /* Level_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level_3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 				5B1818CD1D791A7400DAD7CA /* Level_1.m */,
 				5B1819281D794F8800DAD7CA /* Level_2.h */,
 				5B1819291D794F8800DAD7CA /* Level_2.m */,
+				5B1819511D7A45FC00DAD7CA /* Level_3.h */,
+				5B1819521D7A45FC00DAD7CA /* Level_3.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -485,6 +490,7 @@
 				5B1814E51D78FEC200DAD7CA /* AppDelegate.m in Sources */,
 				5B18185A1D79078A00DAD7CA /* Second_Display.m in Sources */,
 				5B1814EE1D78FEC200DAD7CA /* Proyecto.xcdatamodeld in Sources */,
+				5B1819531D7A45FC00DAD7CA /* Level_3.m in Sources */,
 				5B1814E21D78FEC200DAD7CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

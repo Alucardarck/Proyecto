@@ -41,6 +41,10 @@
     [self performSegueWithIdentifier: @"Level_1" sender:self];  //Se realiza la saga llamada a Level 2
 }
 - (IBAction)Go_Level_2:(id)sender {
-    [self performSegueWithIdentifier: @"Level_2" sender:self];  //Se realiza la saga llamada a Level 2    
+    [self performSegueWithIdentifier: @"Level_2" sender:self];  //Se realiza la saga llamada a Level 2
+}
+
+- (IBAction)Go_Level_3:(id)sender {
+    [self performSegueWithIdentifier: @"Level_3" sender:self];
 }
 @end

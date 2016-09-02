@@ -73,6 +73,9 @@
                                 <rect key="frame" x="20" y="244" width="270" height="87"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Level3.png"/>
+                                <connections>
+                                    <action selector="Go_Level_3:" destination="k8l-3J-sAx" eventType="touchUpInside" id="JTM-kK-vcr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AGS-Xi-2Xu">
                                 <rect key="frame" x="20" y="157" width="270" height="87"/>
@@ -118,11 +121,52 @@
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="Go_Home" modalTransitionStyle="flipHorizontal" id="K4i-o9-v2T"/>
                         <segue destination="0n9-gv-3Ip" kind="modal" identifier="Level_1" modalTransitionStyle="partialCurl" id="b3M-oX-1Ak"/>
                         <segue destination="aM2-Bq-A7g" kind="modal" identifier="Level_2" id="tUg-CF-PPA"/>
+                        <segue destination="dAN-Xp-QIX" kind="modal" identifier="Level_3" id="oXi-Ow-3fJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StX-fa-lci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="572" y="372"/>
+        </scene>
+        <!--Level3-->
+        <scene sceneID="R4t-WE-kwL">
+            <objects>
+                <viewController storyboardIdentifier="LEvel_3" id="dAN-Xp-QIX" customClass="Level_3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8GD-Aa-tEK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F2.jpg" id="hUy-fU-eDK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer_1.png" id="xY0-ui-xWh">
+                                <rect key="frame" x="0.0" y="525" width="320" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HED2.jpg" id="Bci-CL-IfK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q7B-WH-g74">
+                                <rect key="frame" x="20" y="48" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Back6.png"/>
+                                <connections>
+                                    <action selector="Return_From_Lv3:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="JRt-kP-a8Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="L3_Bak_Second" destination="q7B-WH-g74" id="KF4-s8-yUd"/>
+                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_From_Lv3" id="qUM-ix-cWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="32f-5c-w9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="951" y="370"/>
         </scene>
         <!--Level2-->
         <scene sceneID="h0I-TT-YnQ">
@@ -387,6 +431,6 @@
         <image name="T2.png" width="324" height="176"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YnV-aF-rMZ"/>
+        <segue reference="qUM-ix-cWI"/>
     </inferredMetricsTieBreakers>
 </document>
