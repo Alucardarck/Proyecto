@@ -152,6 +152,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q7B-WH-g74">
+                                <rect key="frame" x="20" y="54" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Back6.png"/>
+                                <connections>
+                                    <action selector="Return_From_Lv3:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="JRt-kP-a8Y"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoteBook_2.png" id="RM2-h4-Qax">
                                 <rect key="frame" x="-51" y="86" width="422" height="428"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -173,14 +181,6 @@
                                 <rect key="frame" x="60" y="284" width="200" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iWj-iV-jGa">
-                                <rect key="frame" x="191" y="444" width="120" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="Traveling" backgroundImage="SQR1.png">
-                                    <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ig9-BR-HWs">
                                 <rect key="frame" x="6" y="403" width="120" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -188,6 +188,9 @@
                                 <state key="normal" title="Traveling" backgroundImage="SQR1.png">
                                     <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="L3_btt_1:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="8ud-BU-mQY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hjM-ff-dtF">
                                 <rect key="frame" x="100" y="403" width="120" height="40"/>
@@ -196,6 +199,9 @@
                                 <state key="normal" title="Traveling" backgroundImage="SQR1.png">
                                     <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="L3_btt_2:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="IZ5-4j-bMv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dtu-Ug-Htv">
                                 <rect key="frame" x="191" y="403" width="120" height="40"/>
@@ -204,6 +210,9 @@
                                 <state key="normal" title="Traveling" backgroundImage="SQR1.png">
                                     <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="L3_btt_3:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="900-Iu-gZZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X5g-r7-nRv">
                                 <rect key="frame" x="6" y="444" width="120" height="40"/>
@@ -212,6 +221,9 @@
                                 <state key="normal" title="Traveling" backgroundImage="SQR1.png">
                                     <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="L3_btt_4:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="mzR-Fq-hEs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8DO-4z-jBi">
                                 <rect key="frame" x="100" y="444" width="120" height="40"/>
@@ -220,6 +232,9 @@
                                 <state key="normal" title="Traveling" backgroundImage="SQR1.png">
                                     <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="L3_btt_5:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="jvD-NI-6dQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an Option" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="alV-ii-l2y">
                                 <rect key="frame" x="67" y="54" width="187" height="27"/>
@@ -234,12 +249,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q7B-WH-g74">
-                                <rect key="frame" x="20" y="54" width="32" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Back6.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iWj-iV-jGa">
+                                <rect key="frame" x="191" y="444" width="120" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Traveling" backgroundImage="SQR1.png">
+                                    <color key="titleColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="Return_From_Lv3:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="JRt-kP-a8Y"/>
+                                    <action selector="L3_btt_6:" destination="dAN-Xp-QIX" eventType="touchUpInside" id="1dU-P1-GsX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -247,6 +265,18 @@
                     </view>
                     <connections>
                         <outlet property="L3_Bak_Second" destination="q7B-WH-g74" id="KF4-s8-yUd"/>
+                        <outlet property="Lv3_Btt_1" destination="ig9-BR-HWs" id="u34-bm-KyS"/>
+                        <outlet property="Lv3_Btt_2" destination="hjM-ff-dtF" id="DIB-G3-yg4"/>
+                        <outlet property="Lv3_Btt_3" destination="dtu-Ug-Htv" id="AOb-Yk-Xes"/>
+                        <outlet property="Lv3_Btt_4" destination="X5g-r7-nRv" id="tFc-ma-HT4"/>
+                        <outlet property="Lv3_Btt_5" destination="8DO-4z-jBi" id="tt5-0U-WRn"/>
+                        <outlet property="Lv3_Btt_6" destination="iWj-iV-jGa" id="iaE-02-WL7"/>
+                        <outlet property="Lv3_Img_Principal" destination="Duu-NS-2XD" id="qvR-Yy-dZe"/>
+                        <outlet property="Lv3_Img_Titulo" destination="CdM-sc-exg" id="USK-NZ-lyJ"/>
+                        <outlet property="Lv3_Respuesta" destination="Il1-Oa-FcY" id="8Yw-aY-vL2"/>
+                        <outlet property="Lv3_Texto_1" destination="4w2-Kl-55g" id="yUa-Oc-YgF"/>
+                        <outlet property="Lv3_Texto_2" destination="qAi-Uo-rRs" id="Zk7-Q8-UGj"/>
+                        <outlet property="Lv3_Titulo" destination="alV-ii-l2y" id="ihm-6w-LXV"/>
                         <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_From_Lv3" id="qUM-ix-cWI"/>
                     </connections>
                 </viewController>

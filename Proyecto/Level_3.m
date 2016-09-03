@@ -75,6 +75,26 @@ char Lv3_Respuestas[8]={3,1,5,2,1,6,4,4};
 }
 
 
+- (IBAction)L3_btt_1:(id)sender {
+}
+
+- (IBAction)L3_btt_2:(id)sender {
+}
+
+- (IBAction)L3_btt_3:(id)sender {
+}
+
+- (IBAction)L3_btt_4:(id)sender {
+}
+
+- (IBAction)L3_btt_5:(id)sender {
+}
+
+- (IBAction)L3_btt_6:(id)sender {
+}
+
+
+
 -(void) Siguiente{
     
     Lv3_Contador++;
