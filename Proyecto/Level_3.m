@@ -74,4 +74,25 @@ char Lv3_Respuestas[8]={3,1,5,2,1,6,4,4};
     [self performSegueWithIdentifier: @"Back_From_Lv3" sender:self];  //Se realiza la saga llamada a segunda ventada
 }
 
+
+-(void) Siguiente{
+    
+    Lv3_Contador++;
+    if(Lv3_Contador < 8)
+    {
+
+        
+        
+    }
+    else
+    {
+
+        
+        
+    }
+    
+    
+    
+}
+
 @end
