@@ -47,4 +47,7 @@
 - (IBAction)Go_Level_3:(id)sender {
     [self performSegueWithIdentifier: @"Level_3" sender:self];
 }
+- (IBAction)Go_Credits_Screen:(id)sender {
+    [self performSegueWithIdentifier: @"Go_Credits" sender:self];    
+}
 @end

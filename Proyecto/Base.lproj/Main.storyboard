@@ -57,43 +57,37 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T2.png" id="mX2-ey-Lda">
+                                <rect key="frame" x="19" y="36" width="281" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer_1.png" id="3VF-yl-GMa">
                                 <rect key="frame" x="0.0" y="525" width="320" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jpY-7Z-g3r">
-                                <rect key="frame" x="20" y="69" width="270" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level1.png"/>
+                                <rect key="frame" x="30" y="300" width="270" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Level2.png"/>
                                 <connections>
                                     <action selector="Go_Level_1:" destination="k8l-3J-sAx" eventType="touchUpInside" id="XxX-rC-cDT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hHu-aR-ws9">
-                                <rect key="frame" x="20" y="244" width="270" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="30" y="420" width="270" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Level3.png"/>
                                 <connections>
                                     <action selector="Go_Level_3:" destination="k8l-3J-sAx" eventType="touchUpInside" id="JTM-kK-vcr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AGS-Xi-2Xu">
-                                <rect key="frame" x="20" y="157" width="270" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level2.png"/>
+                                <rect key="frame" x="30" y="180" width="270" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Level1.png"/>
                                 <connections>
                                     <action selector="Go_Level_2:" destination="k8l-3J-sAx" eventType="touchUpInside" id="DqN-hF-T93"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="g89-RB-ka4">
-                                <rect key="frame" x="20" y="330" width="270" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level4.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TrF-iZ-8hu">
-                                <rect key="frame" x="20" y="411" width="270" height="87"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Level5.png"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HED2.jpg" id="7PM-pQ-Sd8">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
@@ -107,6 +101,15 @@
                                     <action selector="Go_Home:" destination="k8l-3J-sAx" eventType="touchUpInside" id="3Jv-bD-n3A"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Psg-Ec-vm1">
+                                <rect key="frame" x="65" y="362" width="201" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <state key="normal" title="Credits" backgroundImage="Btt_9.png"/>
+                                <connections>
+                                    <action selector="Go_Credits_Screen:" destination="k8l-3J-sAx" eventType="touchUpInside" id="XZC-O4-CPD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -116,17 +119,117 @@
                         <outlet property="Level1" destination="jpY-7Z-g3r" id="QWd-2O-ngt"/>
                         <outlet property="Level2" destination="AGS-Xi-2Xu" id="U7N-Zm-Hmh"/>
                         <outlet property="Level3" destination="hHu-aR-ws9" id="v3d-YG-FUo"/>
-                        <outlet property="Level4" destination="g89-RB-ka4" id="30o-rP-IdN"/>
-                        <outlet property="Level5" destination="TrF-iZ-8hu" id="PSt-Zf-vJL"/>
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="Go_Home" modalTransitionStyle="flipHorizontal" id="K4i-o9-v2T"/>
                         <segue destination="0n9-gv-3Ip" kind="modal" identifier="Level_1" modalTransitionStyle="partialCurl" id="b3M-oX-1Ak"/>
                         <segue destination="aM2-Bq-A7g" kind="modal" identifier="Level_2" id="tUg-CF-PPA"/>
                         <segue destination="dAN-Xp-QIX" kind="modal" identifier="Level_3" id="oXi-Ow-3fJ"/>
+                        <segue destination="EkI-RK-Sll" kind="modal" identifier="Go_Credits" id="Pg1-UP-aJ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StX-fa-lci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="572" y="372"/>
+        </scene>
+        <!--Credits-->
+        <scene sceneID="FxT-lf-dSN">
+            <objects>
+                <viewController storyboardIdentifier="Credits" id="EkI-RK-Sll" customClass="Credits" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ie5-zH-nYd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="F2.jpg" id="6dd-CU-NLa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an Option" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9yf-2R-Vgd">
+                                <rect key="frame" x="10" y="10" width="187" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer_1.png" id="WQL-UP-g4A">
+                                <rect key="frame" x="0.0" y="525" width="320" height="43"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="T2.png" id="vbI-7B-ZJa">
+                                <rect key="frame" x="20" y="48" width="281" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HED2.jpg" id="ts9-Gk-gTp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qNi-2i-QEx">
+                                <rect key="frame" x="20" y="48" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Back6.png"/>
+                                <connections>
+                                    <action selector="Go_Back_Again:" destination="EkI-RK-Sll" eventType="touchUpInside" id="ADg-Cs-GIx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universidad Autónoma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FXN-FZ-DT6">
+                                <rect key="frame" x="0.0" y="193" width="320" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="de Guadalajara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bVe-fg-7MC">
+                                <rect key="frame" x="0.0" y="222" width="320" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.99920135740000005" green="0.99632865189999997" blue="0.99609178300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cómputo Móvil" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lwo-bU-tBw">
+                                <rect key="frame" x="0.0" y="251" width="320" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.9763825535774231" green="0.96827322244644165" blue="0.1867012083530426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Thank You !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="g0g-uk-vGG">
+                                <rect key="frame" x="0.0" y="479" width="320" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.9152866005897522" green="0.24655312299728394" blue="0.20107686519622803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Martín León Preciado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CVz-yT-LDP">
+                                <rect key="frame" x="0.0" y="281" width="320" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.49953407049179077" green="0.94796508550643921" blue="0.098156236112117767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brenda de Lourdes Iñiguez Fajardo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pg6-Rn-jff">
+                                <rect key="frame" x="-12" y="459" width="346" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.49953407049179077" green="0.94796508550643921" blue="0.098156236112117767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brenda.png" id="PzO-hD-R0X">
+                                <rect key="frame" x="90" y="494" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Martin.png" id="WKF-6a-Hok">
+                                <rect key="frame" x="91" y="316" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Lbl_Credits" destination="g0g-uk-vGG" id="OAF-2a-9bZ"/>
+                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_Cre" modalTransitionStyle="flipHorizontal" id="Nrv-Z3-hNn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhY-7j-naJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572" y="1058"/>
         </scene>
         <!--Level3-->
         <scene sceneID="R4t-WE-kwL">
@@ -277,7 +380,7 @@
                         <outlet property="Lv3_Texto_1" destination="4w2-Kl-55g" id="yUa-Oc-YgF"/>
                         <outlet property="Lv3_Texto_2" destination="qAi-Uo-rRs" id="Zk7-Q8-UGj"/>
                         <outlet property="Lv3_Titulo" destination="alV-ii-l2y" id="ihm-6w-LXV"/>
-                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_From_Lv3" id="qUM-ix-cWI"/>
+                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_From_Lv3" modalTransitionStyle="flipHorizontal" id="qUM-ix-cWI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32f-5c-w9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -363,7 +466,7 @@
                         <outlet property="Btt_L2_2" destination="XAM-PO-K09" id="PeB-D8-5db"/>
                         <outlet property="IMG_Lvl2" destination="HJV-CS-it4" id="sUZ-m1-g08"/>
                         <outlet property="Label_Lvl2" destination="tGb-DV-FCd" id="Ac0-Mz-bTf"/>
-                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_Level" id="YnV-aF-rMZ"/>
+                        <segue destination="k8l-3J-sAx" kind="modal" identifier="Back_Level" modalTransitionStyle="flipHorizontal" id="YnV-aF-rMZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jgH-2V-0Hv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -530,7 +633,9 @@
     <resources>
         <image name="A1.png" width="600" height="512"/>
         <image name="Back6.png" width="128" height="128"/>
+        <image name="Brenda.png" width="300" height="300"/>
         <image name="Btt2.png" width="1650" height="650"/>
+        <image name="Btt_9.png" width="960" height="480"/>
         <image name="F2.jpg" width="372" height="696"/>
         <image name="F_Cuadro_2.png" width="256" height="256"/>
         <image name="Footer_1.png" width="2050" height="262"/>
@@ -539,8 +644,7 @@
         <image name="Level1.png" width="216" height="87"/>
         <image name="Level2.png" width="216" height="87"/>
         <image name="Level3.png" width="216" height="87"/>
-        <image name="Level4.png" width="216" height="87"/>
-        <image name="Level5.png" width="216" height="87"/>
+        <image name="Martin.png" width="800" height="800"/>
         <image name="NoteBook_2.png" width="512" height="512"/>
         <image name="PF2.jpg" width="750" height="1334"/>
         <image name="Question.png" width="640" height="640"/>
@@ -549,6 +653,6 @@
         <image name="V1.png" width="263" height="250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qUM-ix-cWI"/>
+        <segue reference="Nrv-Z3-hNn"/>
     </inferredMetricsTieBreakers>
 </document>
